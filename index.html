@@ -31,8 +31,11 @@
         <div>
             <input type="file" id="productImg" class="form-contorl mb-3">
         </div>
-        <button onclick="addProduct()" class="btn btn-primary">Add Product</button>
+        <button id="addBtn" onclick="addProduct()" class="btn btn-primary">Add Product</button>
+        <button id="updateBtn" onclick="updateProduct()" class="btn btn-success">Update Product</button>
+        <input id="search" onkeyup="search(this.value)" type="text" class="form-control my-3" placeholder="Search...">
     </div>
+
 
     <div class="container">
         <div class="row" id="demo">
